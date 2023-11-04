@@ -27,11 +27,10 @@
 }
 .functions-game{
   display: flex;
-  justify-content: space-between;
   width: 100%;
   height: 18rem;
-  display: flex;
   align-items: center;
+  justify-content: space-between;
   li{
     display: flex;
     flex-direction: column;
