@@ -1,0 +1,27 @@
+.header{
+  width: 100%;
+  padding: 1.5rem 0;
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .available-to{
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    span{
+      color: $main-color;
+      font-size: 1.4rem;
+      font-weight: 600;
+      &.console{
+        border: 1.5px solid #FFF;
+        padding: 0.5rem 0.8rem;
+      }
+    }
+    div{
+      display: flex;
+      gap: 0.8rem;
+    }
+  }
+}
