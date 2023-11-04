@@ -14,8 +14,7 @@
     width: 100%;
     max-width: 69.9rem;
     .info-section{
-      display: flex;
-      align-items: center;
+     @include flexCenter;
       gap: 1.5rem;
       margin-bottom: 2.4rem;
       span{
@@ -60,8 +59,7 @@
       }
     }
     .restriction-age{
-      display: flex;
-      align-items: center;
+      @include flexCenter;
       gap: 1.3rem;
       p{
         max-width: 24rem;

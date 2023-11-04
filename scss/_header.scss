@@ -2,13 +2,10 @@
   width: 100%;
   padding: 1.5rem 0;
   .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   @include flexCenterJustify;
   }
   .available-to{
-    display: flex;
-    align-items: center;
+    @include flexCenter;
     gap: 1.8rem;
     span{
       color: $main-color;

@@ -12,6 +12,7 @@
     height: 100%;
     padding: 0 3.6rem;
     line-height: 5.6rem;
+    border-radius: 8px 0 0 8px;
   }
   .btn-purchase{
     flex: 1;
@@ -20,6 +21,7 @@
     height: 100%;
     padding: 0 3.6rem;
     transition: all .3s ease;
+    border-radius: 0 8px 8px 0;
     &:hover{
       transform: scale(1.1);
     }
