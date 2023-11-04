@@ -94,3 +94,13 @@
     }
   }
 }
+
+.info-section{
+  @include flexCenter;
+   gap: 1.5rem;
+   span{
+     color: $main-color;
+     font-size: 1.8rem;
+     font-weight: 500;
+   }
+ }
