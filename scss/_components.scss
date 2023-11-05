@@ -70,6 +70,8 @@
     }
   }
   @include responsive('mobile'){
+    height: auto;
+    padding-bottom: 4rem;
     li{
       width: 50%;
       span{
