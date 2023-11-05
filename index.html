@@ -7,10 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/main.css">
   <title>Ragnarok - Project</title>
 </head>
@@ -130,5 +127,83 @@
       <img src="./images/kratos-atreus.png" alt="" class="kratos-atreus">
     </div>
   </section>
+
+  <section class="info-characters">
+    <div class="container">
+      <div class="description">
+        <div class="content">
+          <div class="info-section">
+            <img src="./images/detail-span.svg" alt="">
+            <span>Conheça os personagens</span> 
+          </div>
+          <h2>Toda grande aventura é <br> uma história esperando <br> para ser contada</h2>
+          <p>Reviva o começo da jornada nórdica épica de Kratos e Atreus em Mitos de Midgard. Um alerta para quem não está familiarizado com God of War: spoilers à frente.
+          </p>
+        </div>
+        <div class="image">
+          <img src="./images/img-ax.svg" alt="">
+          <img src="./images/symbol.svg" alt="" class="symbol">
+        </div>
+        <div class="launch-day">
+          <img src="./images/logo.jpg" alt="">
+          <span>Lançamento dia 09/11/2022 </span>
+        </div>
+      </div>
+      <div class="slide-cards">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="image">
+                <img src="./images/kratos.png" alt="Kratos">
+                <button class="know-more">Saiba mais</button>
+              </div>
+              <h5>Kratos</h5>
+              <h6>Deus da Guerra</h6>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="image">
+                <img src="./images/atreus.png" alt="Kratos">
+                <button class="know-more">Saiba mais</button>
+              </div>
+              <h5>Atreus</h5>
+              <h6>Filho de Kratos</h6>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="image">
+                <img src="./images/mimir.png" alt="Kratos">
+                <button class="know-more">Saiba mais</button>
+              </div>
+              <h5>Mimir</h5>
+              <h6>Aliado de Kratos</h6>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="image">
+                <img src="./images/freya.png" alt="Kratos">
+                <button class="know-more">Saiba mais</button>
+              </div>
+              <h5>Freya</h5>
+              <h6>Mãe de Baldur</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".slide-cards", {
+     slidesPerView: 3.5,
+     spaceBetween: 19
+    });
+ </script>
 </body>
 </html>
