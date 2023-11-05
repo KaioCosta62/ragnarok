@@ -130,8 +130,6 @@
       <img src="./images/kratos-atreus.png" alt="" class="kratos-atreus">
     </div>
   </section>
-
-  
   
   <section class="info-characters">
     <div class="container">
@@ -221,13 +219,26 @@
     </div>
   </section> 
 
-
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <script>
     var swiper = new Swiper(".slide-cards", {
      slidesPerView: 3.5,
-     spaceBetween: 19
+     spaceBetween: 19,
+     breakpoints: {
+      560: {
+        slidesPerView: 2,
+        spaceBetween: 12
+      },
+      768: {
+        slidesPerView: 2.5,
+        spaceBetween: 15
+      },
+      1000: {
+        slidesPerView: 3.5,
+        spaceBetween: 19
+      }
+     }
     });
  </script>
 </body>

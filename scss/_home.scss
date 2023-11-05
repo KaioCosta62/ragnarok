@@ -288,5 +288,62 @@
       }
     }
   }
+  @include responsive('laptop'){
+    padding-bottom: 10rem;
+    .description{
+      margin-bottom: 5rem;
+      .content{
+        max-width: 55rem;
+        h2{
+          font-size: 4rem;
+        }
+        p{
+          max-width: 44rem;
+        }
+      }
+    }
+  }
+  @media(max-width: 1100px){
+    .description{
+      flex-direction: column;
+      .content{
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 3rem;
+        h2{
+          font-size: 3rem;
+        }
+        .info-section{
+          justify-content: center;
+        }
+        p{
+          margin: 0 auto;
+        }
+      }
+      .launch-day{
+        display: flex;
+        align-items: center;
+        img{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  @include responsive('mobile'){
+    padding-bottom: 4rem;
+    .description{
+      .content{
+        margin-bottom: 2rem;
+        h2{
+          br{
+            display: none;
+          }
+        }
+      }
+      .image{
+        height: 40rem;
+      }
+    }
+  }
 }
 
