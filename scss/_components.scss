@@ -11,8 +11,8 @@
     font-weight: 700;
     height: 100%;
     padding: 0 3.6rem;
-    line-height: 5.6rem;
     border-radius: 8px 0 0 8px;
+    @include flexCenter;
   }
   .btn-purchase{
     flex: 1;
@@ -24,6 +24,22 @@
     border-radius: 0 8px 8px 0;
     &:hover{
       transform: scale(1.1);
+    }
+  }
+  @include responsive('mobile'){
+    flex-direction: column;
+    max-width: 100%;
+    span{
+      width: 100%;
+      justify-content: center;
+      padding: 1rem;
+      border-radius: 8px 8px 0 0;
+    }
+    .btn-purchase{
+      flex: auto;
+      width: 100%;
+      padding: 1rem;
+      border-radius: 0 0 8px 8px;
     }
   }
 }

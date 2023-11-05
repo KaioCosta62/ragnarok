@@ -5,6 +5,15 @@ h1,h2{
 h1{
   font-size: 12rem;
   line-height: 97.5%; 
+  @include responsive('laptop'){
+    font-size: 10rem;
+  }
+  @include responsive('tablet'){
+    font-size: 6rem;
+  }
+  @include responsive('mobile'){
+    font-size: 3.5rem;
+  }
 }
 
 h2{

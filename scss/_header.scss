@@ -29,5 +29,10 @@
     .logo-play{
       display: none;
     }
+    .available-to{
+      & > span{
+        display: none;
+      }
+    }
   }
 }
