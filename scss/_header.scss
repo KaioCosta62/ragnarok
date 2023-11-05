@@ -21,4 +21,13 @@
       gap: 0.8rem;
     }
   }
+  
+  @include responsive('mobile'){
+    .logo-gow{
+      max-width: 12rem;
+    }
+    .logo-play{
+      display: none;
+    }
+  }
 }
